@@ -1,5 +1,5 @@
-# README  
-**CY-Antibio-Tech Project**  
+# CY-Antibio-Tech Project  
+**Kamilya Abbadi**  
 ## General Description  
 This project automates the generation of visualizations and filtered datasets from experimental data provided by laboratories. It analyzes the impact of antibiotic treatments on the gut microbiota of mice compared to a placebo. The application processes CSV files, generates charts, and outputs filtered datasets for further analysis.  
 ---
