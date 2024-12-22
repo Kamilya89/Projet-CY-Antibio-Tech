@@ -37,3 +37,43 @@ This project automates the generation of visualizations and filtered datasets fr
 - Install required libraries:  
  ```bash
  pip install pandas matplotlib numpy
+ ```
+Steps
+1 Create the necessary directories:
+bash
+```bash
+ mkdir input images output
+ ```
+2 Place the CSV file in the input/ folder.
+
+3 Run the Python script from the root directory:
+```bash
+ python main.py
+ ```
+4 Generated visualizations will appear in the images/ folder.
+
+5 Filtered CSV files will be saved in the output/ folder.
+
+---
+## Functional Limitations  
+### Unimplemented Features
+• Automatic validation of column content (e.g., type checks).
+• Advanced handling of missing or abnormal values in numeric columns.
+### Partially Implemented Features
+• Charts for unspecified days in the data display warning messages instead of full error handling.
+• Handling outliers (e.g., negative values) relies on basic transformations (e.g., logarithmic scaling).
+
+## Challenges Encountered
+### Data Parsing
+• Malformed CSV files required adjustments to handle delimiters and errors.
+### Dynamic Day Management
+• Adapting the program to handle an indefinite number of experimental days required redesigning filter and loop logic.
+### Visualization Consistency
+• Ensuring consistent colors and legends across visualizations required extensive testing.
+### Performance
+• Large files (e.g., huge.csv) caused initial slowdowns, necessitating optimization of Pandas operations.
+---
+## Useful Resources
+• Pandas Documentation
+• Matplotlib Documentation
+• Numpy Documentation
