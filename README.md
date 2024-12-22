@@ -6,7 +6,6 @@ This project automates the generation of visualizations and filtered datasets fr
 
 ## Instructions to Run the Program  
 ### Prerequisites  
-- Python 3.7+  
 - Install required libraries:  
  ```bash
  pip install pandas matplotlib numpy
