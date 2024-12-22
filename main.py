@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt  # for data visualization
 import numpy as np  # for numerical operations
 #----------------------- Loading and cleaning data ----------------------------
 # Define the path to the input CSV file
-file_path = "input/data_small.csv"
+file_path = "input/"
 # Load the CSV file into a pandas DataFrame
 data = pd.read_csv(file_path, sep=";")
 # Rename columns for easier reference and usage
