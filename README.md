@@ -69,6 +69,7 @@ Steps
 • Adapting the program to handle an indefinite number of experimental days required redesigning filter and loop logic.
 ### Visualization Consistency
 • Ensuring consistent colors and legends across visualizations required extensive testing.
+
 ---
 ## Useful Resources
 • Pandas Documentation
