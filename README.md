@@ -40,7 +40,6 @@ This project automates the generation of visualizations and filtered datasets fr
  ```
 Steps
 1 Create the necessary directories:
-bash
 ```bash
  mkdir input images output
  ```
