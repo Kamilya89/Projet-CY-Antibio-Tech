@@ -43,7 +43,7 @@ Steps
 ```bash
  mkdir input images output
  ```
-2 Place the CSV file in the input/ folder.
+2 Place the CSV file in the input/ folder an edit the code to put your filepath.
 
 3 Run the Python script from the root directory:
 ```bash
